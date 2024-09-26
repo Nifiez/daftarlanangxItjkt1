@@ -1,0 +1,72 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    padding: 2rem;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #4CAF50;
+    color: white;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Member Card Styles */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.member-card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    text-align: center;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.member-card img {
+    width: 100%; /* Gambar akan selalu mengisi 100% lebar kontainer */
+    max-width: 180px; /* Lebar maksimum untuk semua gambar */
+    max-height: 300px;
+    height: auto; /* Tinggi akan menyesuaikan dengan lebar untuk mempertahankan rasio */
+     /* Memastikan gambar tidak terdistorsi */
+    border-bottom: 2px solid #ddd; /* Hiasan border di bagian bawah gambar */
+    }
+    
+
+.info {
+    padding: 1rem;
+}
+
+.info h3 {
+    margin: 0.5rem 0;
+}
+
+.info p {
+    margin: 0.25rem 0;
+    color: #555;
+}
